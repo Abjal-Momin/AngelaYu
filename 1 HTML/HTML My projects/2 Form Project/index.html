@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <form action="./action.php">
+        <h4>Registration Page</h4>
+        <input type="text" placeholder="entrer email">
+        <br> <br>
+        <input type="password" placeholder="password">
+        <br>
+        <!-- password is for hide content -->
+
+        <h4>Select the Course </h4>
+        <label for="1">
+            <!-- lable is for make text chickable but it need id value -->
+            <!-- id is made for lable it. now id will be value of lable  -->
+            <input type="radio" value="BSC" name="course" id="1">BSC
+        </label>
+        <br>
+        <label for="2">
+            <input type="radio" value="BCOM" name="course" id="2">BCOM
+        </label>
+        <br>
+        <label for="3">
+            <input type="radio" value="BA" name="course" id="3">BA
+        </label>
+        <br>
+        <label for="4">
+            <input type="radio" value="BBA" name="course" id="4">BBA
+        </label>
+        <br>
+
+        <h4>Select Year</h4>
+        <br>
+        <label for="11">
+            <input type="radio" value="First" name="Year" id="11">First
+        </label>
+        <br>
+        <label for="12">
+            <input type="radio" value="Second" name="Year" id="12">Second
+        </label>
+        <br>
+        <label for="">
+            <input type="radio" value="Third" name="Year">Third
+        </label>
+        <br>
+
+
+        <h4>Select Subjects</h4>
+        <label for="21">
+            <!-- checkbox is for multiple select can be uncheck -->
+            <input type="checkbox" value="Botany" name="Botany" id="21">Botany
+        </label>
+        <br>
+        <label for="22">
+            <input type="checkbox" value="Zoology" name="Zoology" id="22">Zoology
+        </label>
+        <br>
+        <label for="23">
+            <input type="checkbox" value="Chemistry" name="Chemistry" id="23">Chemistry
+        </label>
+        <br>
+        <label for="24">
+            <input type="checkbox" value="CS" name="CS" id="24">CS
+        </label>
+        <br>
+
+
+        <h4>Select the City</h4>
+        <select name="city" id="4">
+            <!-- select for cities-->
+            <option value="bgm">Bangalore</option>
+            <option value="gkk">Goa</option>
+            <option value="hkk">Hyderabad</option>
+            <option value="hkk">Mumbai</option>
+            <option value="hkk">Delhi</option>
+            <option value="hkk">Kerala</option>
+            <option value="hkk">Tamilnadu</option>
+        </select>
+        <br>
+        <textarea name="Feedback" id="5" placeholder="Give your Feedback Here" cols="10" rows="5"></textarea>
+        <br>
+        <input type="submit" name="submit" id="">
+        <br>
+        <input type="reset" name="reset" id="">
+        <input type="file" name="file" id="">
+        <input type="image" name="" id="">
+    </form>
+
+</body>
+
+</html>
